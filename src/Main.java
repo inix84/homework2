@@ -47,5 +47,33 @@ public class Main {
         System.out.println("значение frog +4 ---> " + frog);
         System.out.println();
 
+        System.out.println("ЗАДАНИЕ 3, задача 6");
+        var weightOneBoxer = 78.2;
+        var weightSecondBoxer = 82.7;
+        var weightSumBoxer = weightOneBoxer+weightSecondBoxer;
+        System.out.println("общий вес двух боксеров ---> " + weightSumBoxer);
+        var weightDifferenceBoxer = weightSecondBoxer-weightOneBoxer;
+        System.out.println("разница в весах этих боксеров ---> " + weightDifferenceBoxer);
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 7");
+        var weightDifference2Boxer = weightSecondBoxer%weightOneBoxer;
+        System.out.println("Разница вычитанием ---> " + weightDifferenceBoxer);
+        System.out.println("Разница остатком от деления ---> " + weightDifference2Boxer);
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 8.1");
+        var hoursAll = 640;
+        var hoursOne = 8;
+        var people = hoursAll/hoursOne;
+        System.out.println("Всего работников в компании – " + people + " человек");
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 8.2");
+        people = people +94;
+        hoursAll = people*hoursOne;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + hoursAll + " часов работы может быть поделено между сотрудниками");
+
+
     }
 }
