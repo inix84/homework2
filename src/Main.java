@@ -60,6 +60,20 @@ public class Main {
         var weightDifference2Boxer = weightSecondBoxer%weightOneBoxer;
         System.out.println("Разница вычитанием ---> " + weightDifferenceBoxer);
         System.out.println("Разница остатком от деления ---> " + weightDifference2Boxer);
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 8.1");
+        var hoursAll = 640;
+        var hoursOne = 8;
+        var people = hoursAll/hoursOne;
+        System.out.println("Всего работников в компании – " + people + " человек");
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 8.2");
+        people = people +94;
+        var hours = people*hoursOne;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками");
+
 
     }
 }
