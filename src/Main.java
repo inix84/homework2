@@ -57,9 +57,9 @@ public class Main {
         System.out.println();
 
         System.out.println("ЗАДАНИЕ 3, задача 7");
-        var weightDifferenceBoxer2 = weightSecondBoxer%weightOneBoxer;
+        var weightDifference2Boxer = weightSecondBoxer%weightOneBoxer;
         System.out.println("Разница вычитанием ---> " + weightDifferenceBoxer);
-        System.out.println("Разница остатком от деления ---> " + weightDifferenceBoxer2);
+        System.out.println("Разница остатком от деления ---> " + weightDifference2Boxer);
 
     }
 }
