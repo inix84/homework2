@@ -47,5 +47,19 @@ public class Main {
         System.out.println("значение frog +4 ---> " + frog);
         System.out.println();
 
+        System.out.println("ЗАДАНИЕ 3, задача 6");
+        var weightOneBoxer = 78.2;
+        var weightSecondBoxer = 82.7;
+        var weightSumBoxer = weightOneBoxer+weightSecondBoxer;
+        System.out.println("общий вес двух боксеров ---> " + weightSumBoxer);
+        var weightDifferenceBoxer = weightSecondBoxer-weightOneBoxer;
+        System.out.println("разница в весах этих боксеров ---> " + weightDifferenceBoxer);
+        System.out.println();
+
+        System.out.println("ЗАДАНИЕ 3, задача 7");
+        var weightDifferenceBoxer2 = weightSecondBoxer%weightOneBoxer;
+        System.out.println("Разница вычитанием ---> " + weightDifferenceBoxer);
+        System.out.println("Разница остатком от деления ---> " + weightDifferenceBoxer2);
+
     }
 }
