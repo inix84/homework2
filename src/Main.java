@@ -71,8 +71,8 @@ public class Main {
 
         System.out.println("ЗАДАНИЕ 3, задача 8.2");
         people = people +94;
-        var hours = people*hoursOne;
-        System.out.println("Если в компании работает " + people + " человек, то всего " + hours + " часов работы может быть поделено между сотрудниками");
+        hoursAll = people*hoursOne;
+        System.out.println("Если в компании работает " + people + " человек, то всего " + hoursAll + " часов работы может быть поделено между сотрудниками");
 
 
     }
